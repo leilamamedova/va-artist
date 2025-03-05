@@ -98,17 +98,32 @@
   .container {
     padding: 0 60px;
   }
+
+  .close {
+    top: 2%;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .container {
     padding: 0 40px;
   }
+
+  .close {
+    top: 18%;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .container {
     padding: 0 20px;
+  }
+
+  .close {
+    top: 5%;
+    right: 0;
   }
 }
 
@@ -126,5 +141,10 @@
   .img-container-3x {
     width: 100%;
     margin: 0;
+  }
+
+  .close {
+    top: 25%;
+    right: 0;
   }
 }
