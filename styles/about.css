@@ -119,6 +119,18 @@ section {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1400px) {
+  .sec-01,
+  .sec-02,
+  .section-03 {
+    padding: 40px 60px;
+  }
+
+  .sec-02 {
+    padding-top: 80px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .sec-01,
   .sec-02,
@@ -174,6 +186,18 @@ section {
 
   section {
     justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .sec-01,
+  .sec-02,
+  .section-03 {
+    padding: 40px 20px;
+  }
+
+  .sec-02 {
+    padding-top: 80px;
   }
 }
 

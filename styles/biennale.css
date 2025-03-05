@@ -1,0 +1,280 @@
+.sec-02,
+.sec-03,
+.sec-04,
+.sec-05 {
+  padding: 80px 148px 40px;
+}
+
+.sec-02 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2f2e2e;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.content .text-box {
+  z-index: 222;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  margin-left: 70px;
+  padding: 40px;
+  max-width: 600px;
+  border: 1px solid rgba(32, 30, 30, 0.1);
+  border-radius: 10px;
+  transform: translate(-80px, 50px);
+}
+
+.content .text-box h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-size: 3em;
+  margin-bottom: 15px;
+  font-style: italic;
+  padding: 20px;
+}
+
+.section-subtitle {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 45px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.info-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.info {
+  width: 700px;
+  text-align: center;
+}
+
+.sec-03 {
+  display: flex;
+  color: #2f2e2e;
+}
+
+.ship {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship-pic {
+  display: flex;
+  width: 630px;
+  height: 630px;
+}
+
+.ship .ship-pic img {
+  height: inherit;
+  width: inherit;
+}
+
+.descriptor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  margin-right: 110px;
+}
+
+.des-title {
+  font-style: italic;
+}
+
+.sec-04 {
+  margin-top: 25px;
+  display: flex;
+  color: #2f2e2e;
+}
+
+.installation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instal-pic {
+  display: flex;
+  width: 600px;
+  height: 600px;
+}
+
+.installation .instal-pic img {
+  height: inherit;
+  width: inherit;
+}
+
+.description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.sec-05 {
+  margin-top: 40px;
+  display: flex;
+  color: #2f2e2e;
+}
+
+.sec-05 .descriptor {
+  margin-right: 0;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+}
+
+.game-pic {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  height: 380px;
+}
+
+.game .game-pic img {
+  height: 100%;
+  width: inherit;
+}
+
+@media screen and (max-width: 1400px) {
+  .sec-02,
+  .sec-03,
+  .sec-04,
+  .sec-05 {
+    padding: 80px 60px 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sec-02,
+  .sec-03,
+  .sec-04,
+  .sec-05 {
+    padding: 80px 40px 40px;
+  }
+
+  .ship-pic {
+    width: 500px;
+    height: 500px;
+  }
+  .instal-pic {
+    width: 500px;
+    height: 500px;
+  }
+  .game-pic {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .sec-02,
+  .sec-03,
+  .sec-04,
+  .sec-05 {
+    padding: 80px 20px 40px;
+  }
+
+  .ship-pic {
+    width: 400px;
+    height: 400px;
+  }
+  .instal-pic {
+    width: 400px;
+    height: 400px;
+  }
+  .game-pic {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-02,
+  .sec-03,
+  .sec-04,
+  .sec-05 {
+    padding: 40px 20px 20px;
+  }
+
+  .section-title {
+    font-size: 2.5em;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+  }
+
+  .exhibition-list {
+    font-size: 14px;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .ship {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ship-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .installation {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .instal-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .descriptor {
+    margin-right: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .game {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .game-pic {
+    width: 400px;
+    height: 400px;
+  }
+}

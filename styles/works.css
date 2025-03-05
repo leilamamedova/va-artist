@@ -167,9 +167,21 @@ footer {
   transform: translateY(-5px);
 }
 
+@media screen and (max-width: 1400px) {
+  .page-title {
+    padding: 120px 60px 80px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .page-title {
     padding: 120px 40px 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .page-title {
+    padding: 120px 20px 80px;
   }
 }
 
