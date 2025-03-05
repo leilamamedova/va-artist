@@ -291,6 +291,9 @@ footer p {
 }
 
 @media screen and (max-width: 1200px) {
+  .wrapper {
+    background-image: url('assets/background-mob.jpg');
+  }
   .main {
     padding: 0 40px;
   }
@@ -345,6 +348,9 @@ footer p {
 }
 
 @media screen and (max-width: 992px) {
+  .wrapper {
+    background-image: url('assets/background-mob.jpg');
+  }
   .main {
     padding: 0 20px;
   }
@@ -442,13 +448,6 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  .main {
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 40px 0;
-    height: auto;
-  }
-
   .main img {
     margin-top: 20px;
     width: 100%;
@@ -467,7 +466,7 @@ footer p {
   }
 
   .wrapper {
-    height: calc(100vh - 45px);
+    height: calc(100vh - 58px);
     padding-top: 20px;
     background-image: url('assets/background-mob.jpg');
     display: flex;
