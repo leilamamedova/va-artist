@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #f0ecece9;
+}
+
+img {
+  object-fit: cover;
+  object-position: top;
+}
+
+nav {
+  height: 60px;
+  padding: 30px 148px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 77px;
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+nav .nav-links a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav .nav-links a::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0;
+  bottom: -5px;
+  left: 0;
+  background-color: #f0ecec;
+  transition: width 0.3s ease;
+}
+
+nav .nav-links a:hover::after,
+nav .nav-links a.selected::after {
+  width: 100%;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected {
+  color: #f0ecec;
+}
+
+.burger {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  color: #e0e0e0c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 15px;
+}
+
+footer .socials i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .socials i:hover {
+  color: #2e345e;
+}
+
+footer p {
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1400px) {
+  nav {
+    padding: 20px 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo a.logo-text {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  nav .nav-links a.selected::after {
+    display: none;
+  }
+
+  nav .nav-links a.selected {
+    font-weight: bold;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+/*  Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383838;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
