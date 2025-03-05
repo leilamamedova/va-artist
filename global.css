@@ -155,7 +155,7 @@ footer p {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 59px;
     right: 0;
     background-color: #000;
     width: 100%;
@@ -168,6 +168,10 @@ footer p {
   }
 
   nav .nav-links a.selected::after {
+    display: none;
+  }
+
+  nav .nav-links a:hover::after {
     display: none;
   }
 
