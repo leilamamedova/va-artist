@@ -1,6 +1,6 @@
 .wrapper {
   position: relative;
-  background-image: url('assets/background.jpg');
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   background-position: center;
   margin-top: 60px;
@@ -276,7 +276,7 @@ footer .socials i {
 
 @media screen and (max-width: 1200px) {
   .wrapper {
-    background-image: url('assets/background-mob.jpg');
+    background-image: url('../assets/background-mob.jpg');
   }
   .main {
     padding: 0 40px;
@@ -333,7 +333,7 @@ footer .socials i {
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    background-image: url('assets/background-mob.jpg');
+    background-image: url('../assets/background-mob.jpg');
   }
   .main {
     padding: 0 20px;
@@ -452,7 +452,7 @@ footer .socials i {
   .wrapper {
     height: calc(100vh - 58px);
     padding-top: 20px;
-    background-image: url('assets/background-mob.jpg');
+    background-image: url('../assets/background-mob.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;
