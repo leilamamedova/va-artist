@@ -476,4 +476,8 @@ footer .socials i {
   .main .explore-link {
     font-size: 14px;
   }
+
+  .main {
+    margin-top: 60%;
+  }
 }
