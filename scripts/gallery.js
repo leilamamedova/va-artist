@@ -1,6 +1,8 @@
 var modal = document.querySelector('.modal-overlay');
 var modalImg = document.getElementById('full-image');
-var images = document.querySelectorAll('.img-container img');
+var images = document.querySelectorAll(
+  '.img-container img, .img-container-3x img',
+);
 var closeBtn = document.querySelector('.close');
 var prevBtn = document.querySelector('.prev');
 var nextBtn = document.querySelector('.next');

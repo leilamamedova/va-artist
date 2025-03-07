@@ -75,7 +75,7 @@
   color: #fff;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px;
+  padding: 0 0 5px;
   border-radius: 50%;
   transition: background-color 0.3s;
   width: 30px;
@@ -97,7 +97,6 @@
 .prev,
 .next {
   position: absolute;
-  top: 50%;
   font-size: 24px;
   color: white;
   background: none;
@@ -118,8 +117,8 @@
   }
 
   .close {
-    top: 2%;
-    right: 0;
+    top: 5%;
+    left: 100%;
   }
 }
 
@@ -129,8 +128,8 @@
   }
 
   .close {
-    top: 18%;
-    right: 0;
+    top: 5%;
+    left: 100%;
   }
 }
 
@@ -142,13 +141,12 @@
   .img-container,
   .img-container-3x {
     width: 100%;
-    margin: 0;
     width: calc(33.3% - 10px);
   }
 
   .close {
-    top: 5%;
-    right: 0;
+    top: 10%;
+    left: 100%;
   }
 }
 
@@ -160,12 +158,11 @@
   .img-container,
   .img-container-3x {
     width: 100%;
-    margin: 0;
     width: calc(50% - 10px);
   }
 
   .close {
     top: 25%;
-    right: 0;
+    left: 100%;
   }
 }
