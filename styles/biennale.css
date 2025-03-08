@@ -247,8 +247,8 @@
   }
 
   .ship-pic {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
 
   .installation {
@@ -258,8 +258,8 @@
   }
 
   .instal-pic {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
 
   .descriptor {
@@ -275,7 +275,7 @@
   }
 
   .game-pic {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
   }
 }
