@@ -143,7 +143,7 @@ section {
   }
 
   .main-title {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 60px auto 30px;
   }
 
@@ -187,6 +187,17 @@ section {
   section {
     justify-content: flex-start;
   }
+
+  .content .text-box {
+    width: 100%;
+    backdrop-filter: none;
+    margin-left: 0;
+    padding: 20px;
+    max-width: max-content;
+    transform: none;
+    transition: none;
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -198,6 +209,17 @@ section {
 
   .sec-02 {
     padding-top: 80px;
+  }
+
+  .content .text-box {
+    width: 100%;
+    backdrop-filter: none;
+    margin-left: 0;
+    padding: 20px;
+    max-width: max-content;
+    transform: none;
+    transition: none;
+    margin-top: 25px;
   }
 }
 
@@ -213,7 +235,7 @@ section {
   }
 
   .main-title {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 60px auto 30px;
   }
 
@@ -231,9 +253,12 @@ section {
   .content .text-box {
     width: 100%;
     backdrop-filter: none;
-    margin-left: 75px;
+    margin-left: 0;
     padding: 20px;
     max-width: max-content;
+    transform: none;
+    transition: none;
+    margin-top: 25px;
   }
 
   .info {
